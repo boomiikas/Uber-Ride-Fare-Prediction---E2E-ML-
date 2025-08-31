@@ -31,6 +31,13 @@ st.markdown("""
         h1, h2, h3, h4, h5, h6, p, span, label {
             color: #000000 !important;
         }
+        /* Style for number input labels (Pickup/Dropoff text) */
+        .stNumberInput label {
+            font-family: "Courier New", monospace !important;  /* Change font */
+            font-size: 15px !important;                       /* Adjust size */
+            font-weight: 600 !important;                      /* Make bold */
+            color: #003366 !important;                        /* Dark blue text */
+        }
 
         /* Number input styling */
         .stNumberInput > div > div input {
